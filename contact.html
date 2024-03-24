@@ -22,6 +22,19 @@
 		<link href="css/style.css" rel="stylesheet" />
 		<link href="css/responsive.css" rel="stylesheet" />
 		<link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+
+		<style>
+			@media (max-width: 767px) {
+				.map-column {
+					width: 100%;
+				}
+				.responsive-map {
+					width: 100%;
+					height: 500px;
+					margin-top: 30px;
+				}
+			}
+		</style>
 	</head>
 
 	<!-- page wrapper -->
@@ -217,15 +230,12 @@
 		<!-- contact-banner -->
 		<section
 			class="service-banner"
-			style="background-image: url(images/background/service-banner.jpg)"
+			style="background-image: url(images/about-us-banners.jpg)"
 		>
 			<div class="container">
 				<div class="content-box">
-					<h1>Factory Solution</h1>
-					<h3>
-						For more than 30 years, companies around the world have<br />depended
-						on Acto
-					</h3>
+					<h1>Contact Us</h1>
+					<h3>Let's Seal the Deal on Your Next Project</h3>
 				</div>
 			</div>
 		</section>
@@ -329,20 +339,16 @@
 						</div>
 					</div>
 					<div class="col-lg-6 col-md-12 col-sm-12 map-column">
-						<div class="google-map-area">
-							<div
-								class="google-map"
-								id="contact-google-map"
-								data-map-lat="19.27380035343107"
-								data-map-lng="72.88581696821514"
-								data-icon-path="images/icons/map-marker.png"
-								data-map-title="Brooklyn, New York, United Kingdom"
-								data-map-zoom="12"
-								data-markers='{
-                                "marker-1": [19.27380035343107, 72.88581696821514, "<h4>Branch Office</h4><p>77/99 New York</p>","images/icons/map-marker.png"]
-                            }'
-							></div>
-						</div>
+						<iframe
+							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3766.1964382570386!2d72.88319597454!3d19.273821845733718!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b1f5120e155f%3A0x13c830e1fba6bd61!2sSufon%20Seals!5e0!3m2!1sen!2sin!4v1711312639927!5m2!1sen!2sin"
+							width="100%"
+							height="650"
+							style="border: 0"
+							allowfullscreen=""
+							loading="lazy"
+							referrerpolicy="no-referrer-when-downgrade"
+							class="responsive-map"
+						></iframe>
 					</div>
 				</div>
 			</div>
