@@ -20469,9 +20469,3 @@ body.flyout-searchbar-active
 .toggle-content {
 	display: none;
 }
-
-.info-column {
-	overflow-x: hidden;
-	max-width: 100%;
-	box-sizing: border-box;
-}
