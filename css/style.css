@@ -20469,3 +20469,7 @@ body.flyout-searchbar-active
 .toggle-content {
 	display: none;
 }
+
+body {
+	overflow-x: hidden;
+}
