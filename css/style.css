@@ -20470,6 +20470,6 @@ body.flyout-searchbar-active
 	display: none;
 }
 
-body {
+.info-column {
 	overflow-x: hidden;
 }
