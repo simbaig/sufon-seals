@@ -353,7 +353,7 @@ img {
 	line-height: 50px;
 	position: fixed;
 	bottom: 105%;
-	right: 50px;
+	right: 15px;
 	font-size: 16px;
 	border-radius: 50%;
 	z-index: 99;
@@ -20468,4 +20468,14 @@ body.flyout-searchbar-active
 
 .toggle-content {
 	display: none;
+}
+
+.whatsapp {
+	position: fixed;
+	height: 50px;
+	width: 50px;
+	left: 15px;
+	bottom: 20px;
+	cursor: pointer;
+	z-index: 2;
 }
